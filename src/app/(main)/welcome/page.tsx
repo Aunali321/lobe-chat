@@ -13,7 +13,7 @@ export const generateMetadata = async () => {
   return metadataModule.generate({
     description: t('welcome.description'),
     title: t('welcome.title'),
-    url: '/welcome',
+    url: '/chat',
   });
 };
 
@@ -23,7 +23,7 @@ const Page = async () => {
   const ld = ldModule.generate({
     description: t('welcome.description'),
     title: t('welcome.title'),
-    url: '/welcome',
+    url: '/chat',
   });
 
   return (

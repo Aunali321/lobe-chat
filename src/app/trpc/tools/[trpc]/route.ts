@@ -5,7 +5,7 @@ import { pino } from '@/libs/logger';
 import { createContext } from '@/server/context';
 import { toolsRouter } from '@/server/routers/tools';
 
-export const maxDuration = 120;
+export const maxDuration = 60;
 
 const handler = (req: NextRequest) =>
   fetchRequestHandler({
